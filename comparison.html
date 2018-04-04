@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Comparison: Latitude vs. X</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="https://maxcdn.bootstrapcdn.com/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./latidue.css" rel="stylesheet">
+
+    <link rel="import" href="./navbar.html">
+
+  </head>
+    <body>
+      <!--<div id="container"></div>
+      <script>
+          var link = document.querySelector('link[rel="import"]');
+      
+          // Clone the <template> in the import.
+          var template = link.import.querySelector('template');
+          var clone = document.importNode(template.content, true);
+      
+          document.querySelector('#container').appendChild(clone);
+      </script>
+      <p>What is a body without a heart?</p> -->
+      <nav class="navbar navbar-default nav-custom">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <b>
+            <a class="navbar-brand" style="margin-left: 60px; background: turquoise; color:white; font-family:Georgia, 'Times New Roman', Times, serif;" href="./index.html">Lattitude</a>
+            </b>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="./index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="./visualization/max_temperature.html">Max Temperature</a></li>
+                    <li><a href="./visualization/humidity.html">Humidity</a></li>
+                    <li><a href="./visualization/cloudiness.html">Cloudiness</a></li>
+                    <li><a href="./visualization/wind_speed.html">Wind Speed</a></li>
+                </ul>
+                </li>              
+                <li><a href="./comparison.html">Comparison</a></li>
+                <li><a href="./data.html">Data</a></li>
+            </ul>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+      <div class="container-fluid" style="padding-left: 0px;">
+      <main role="main" class="container">
+        <div class="row" style="padding-left: 15px;margin-left: -30px;">
+          <div class="container" style="padding-left: 50px; padding-right: 50px; padding-top: 2em; background-color:white;">
+              <strong class="h2-custom">Comparison: Latitude vs X</strong><hr>
+                <p>
+                  Click any plot to get an in-depth analysis.
+                </p>
+                <!--<img class="img-responsive img-size" src="./images/Latitude_vs_Max_Temperature.png" alt="Latitude vs Max Temperature"usemap="#maxtempmap" style="float:left;padding-right:10px;padding-top:50px;">
+                <map name="maxtempmap">
+                  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                </map>-->
+          <!--</div>-->
+        </div>
+          <div class="col-md-6 col-xs-12 col-md-6-custom">
+            <div class="thumbnail" style="margin-bottom: 0px;">
+              <div class="caption">
+                <b><p class="text-center p-custom font-weight-bold">vs. Max Temperature</p></b>
+              </div>
+              <a href="./visualization/max_temperature.html" target="_self">
+                <img class="img-responsive img-size" src="./images/Latitude_vs_Max_Temperature.png" alt="Latitude vs Max Temperature">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-xs-12 col-md-6-custom">
+            <div class="thumbnail" style="margin-bottom: 0px;">
+               <div class="caption">
+                  <b><p class="text-center p-custom font-weight-bold">vs. Humidity</p></b>
+               </div>
+              <a href="./visualization/humidity.html" target="_self">
+                <img class="img-responsive img-size" src="./images/Latitude_vs_Humidity.png" alt="Latitude vs Humidity">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-xs-12 col-md-6-custom">
+            <div class="thumbnail">
+              <div class="caption">
+                <b><p class="text-center p-custom">vs. Cloudiness</p></b>
+              </div>
+              <a href="./visualization/cloudiness.html" target="_self">
+                <img class="img-responsive img-size" src="./images/Latitude_vs_Cloudiness.png" alt="Latitude vs Cloudiness">
+              </a>
+            </div>
+          </div>
+            <div class="col-md-6 col-xs-12 col-md-6-custom">
+            <div class="thumbnail">
+              <div class="caption">
+                <b><p class="text-center p-custom">vs. Wind Speed</p></b>
+              </div>
+              <a href="./visualization/wind_speed.html" target="_self">
+                <img class="img-responsive img-size" src="./images/Latitude_vs_Wind_Speed.png" alt="Latitude vs Wind Speed">
+              </a>
+            </div>
+          </div> 
+        
+      </div>         
+      </main>
+    </div>
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+
+    </body>
+</html>

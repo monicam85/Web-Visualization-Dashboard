@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>latitude Home Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="https://maxcdn.bootstrapcdn.com/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../latidue.css" rel="stylesheet">
+
+    <!--<script type="text/javascript">
+        window.onload = function() {
+          var observed = document.getElementsByTagName('a');
+
+          for (var i = 0; i < observed.length; i++) {
+            observed[i].addEventListener('click', function (e) {
+               var e=window.event||e;
+
+               alert('Clicked ' + e.srcElement.innerText);
+
+               if (e.preventDefault) { e.preventDefault() } else { e.returnValue=false }
+            }, false);
+          }
+        }
+        </script> -->
+
+</head>
+  <body style="background-color:gainsboro; padding-top:0px">
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default" style="background-color:white; border:0px; border-radius:0px;">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <b>
+          <a class="navbar-brand" style="margin-left: 60px; background: turquoise; color:white; font-family:Georgia, 'Times New Roman', Times, serif;" href="../index.html">Lattitude</a>
+          </b>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+              <a href="../index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="./max_temperature.html">Max Temperature</a></li>
+                <li><a href="./humidity.html">Humidity</a></li>
+                <li><a href="./cloudiness.html">Cloudiness</a></li>
+                <li><a href="./wind_speed.html">Wind Speed</a></li>
+              </ul>
+            </li>              
+            <li><a href="../comparison.html">Comparison</a></li>
+            <li><a href="../data.html">Data</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
+    <main role="main" class="container-fluid"> 
+            <div class="row" style="padding-left: 30px; padding-right: 50px;">
+              <div class="col-xs-12 col-md-8" style="border: 15px solid  gainsboro; padding-top: 2em; box-sizing:border-box; background-color:white;">
+                  <b><strong class="h2-detail-custom">Humidity</strong></b><hr>
+                    <p class="p-detail">
+                      <img class="img-responsive img-detail" src="../images/Latitude_vs_Humidity.png" alt="Latitude vs Wind Speed" >
+                      This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device
+                    </p>
+              </div>
+        <div class="col-xs-12 col-md-4" style="border: 15px solid  gainsboro; padding-top: 2em; box-sizing:border-box; background-color:white;">
+            <strong style="color:turquoise; font-size:25px; font-family:Georgia, 'Times New Roman', Times, serif">Visualization</strong><hr>
+
+                
+                <div class="col-md-6 col-md-6-custom">
+                  <div class="thumbnail" >
+                  
+
+                      <!--<div class="caption"></div>-->
+                    <a href="./max_temperature.html" target="_self">
+                      <img class=" img-size" src="../images/Latitude_vs_Max_Temperature.png" alt="Latitude_vs_Max_Temperature.png">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-md-6-custom">
+                  <div class="thumbnail" >
+                    
+
+                     
+                    <a href="./humidity.html" target="_self">
+                      <img class=" img-size" src="../images/Latitude_vs_Humidity.png" alt="Latitude_vs_Humidity.png">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-md-6-custom">
+                  <div class="thumbnail">
+                   
+
+                   
+                    <a href="./cloudiness.html" target="_self">
+                      <img class=" img-size" src="../images/Latitude_vs_Cloudiness.png" alt="Latitude_vs_Cloudiness.png">
+                    </a>
+                  </div>
+                </div>
+                  <div class="col-md-6 col-md-6-custom">
+                  <div class="thumbnail">
+                
+
+                  
+                    <a href="./wind_speed.html" target="_self">
+                      <img class=" img-size" src="../images/Latitude_vs_Wind_Speed.png" alt="Latitude_vs_Wind_Speed.png">
+                    </a>
+                  </div>
+               
+            </div>
+              </div>
+            </div>
+          </main>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
